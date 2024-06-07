@@ -1,6 +1,6 @@
 import { type ReactElement } from "react";
-import FeedbackList from "./FeedbackList";
 import Header from "./Header";
+import FeedbackList from "../feedback/FeedbackList";
 
 export default function Container(): ReactElement {
   return (

@@ -1,8 +1,8 @@
 import { type ReactElement } from "react";
-import FeedbackForm from "./FeedbackForm";
-import Logo from "./Logo";
-import PageHeading from "./PageHeading";
-import Pattern from "./Pattern";
+import Logo from "../Logo";
+import PageHeading from "../PageHeading";
+import Pattern from "../Pattern";
+import FeedbackForm from "../feedback/FeedbackForm";
 
 export default function Header(): ReactElement {
   return (
